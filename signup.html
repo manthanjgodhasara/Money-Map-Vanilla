@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="./Navbar.css">
+  <title>Signup</title>
+</head>
+<body>
+  <nav>
+    <div class="nav-center">
+      <div class="nav-header">
+        <img src='./images/logo2.jpg' class="logo" alt="logo" />
+        <button class="nav-toggle" onClick={toggleLinks}>
+          <FaBars />
+        </button>
+      </div>
+  
+      <div class="links-container">
+        <ul class="links">
+          <li>
+            <a href="./login.html">Login</a>
+          </li>
+          <li>
+            <a href="./signup.html">Signup</a>
+          </li>
+          <li>
+            <a href="./home.html">Home</a>
+            </li>
+            <li>
+              <a href="./addTrans.html">Add</a>
+            </li>
+            <li>
+              <a href="#">History</a>
+            </li>
+            <li>
+              <a href="#">Logout</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="login_container signup_container_height">
+    <div class="login_container_left">
+      <div class="title">
+        <h1 style="color: #0a65a4">Signup</h1>
+      </div>
+  
+      <form class="form_container">
+        <div class="form_field">
+          <label style="color: #0a65a4">
+            <b>User Name:</b>
+          </label>
+          <input type="text" name="username" required ></input>
+        </div>
+  
+        <div class="form_field">
+          <label style="color: #0a65a4">
+            <b>Email:</b>
+          </label>
+          <input type="email" name="email" ></input>
+        </div>
+  
+        <div class="form_field">
+          <label style="color: #0a65a4">
+            <b>Password:</b>
+          </label>
+          <input type="password" name="password" required ></input>
+        </div>
+  
+        <div class="form_field">
+          <label style="color: #0a65a4">
+            <b>Confirm Password:</b>
+          </label>
+          <input type="password" name="confirmPassword" required ></input>
+        </div>
+  
+        <button type="submit" class="btn">
+          Login
+        </button>
+      </form>
+  
+      <div class="login_footer">
+        Already have an account?
+        <a href="./login.html" style="color: #0a65a4">
+        <b> Login</b>
+        </a>
+      </div>
+    </div>
+  
+    <div class="login_container_right signup_img_height">
+      <img src="./images/signup svg.jpg" />
+    </div>
+  
+  </div>
+</body>
+</html>

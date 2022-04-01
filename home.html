@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./home.css">
+  <link rel="stylesheet" href="./Navbar.css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link href="/your-path-to-uicons/css/uicons-[your-style].css" rel="stylesheet">
+  <title>Home</title>
+</head>
+<body>
+  <nav>
+    <div class="nav-center">
+      <div class="nav-header">
+        <img src='./images/logo2.jpg' class="logo" alt="logo" />
+        <!-- <button class="nav-toggle" >
+          <FaBars />
+        </button> -->
+      </div>
+  
+      <div class="links-container">
+        <ul class="links">
+          <li>
+            <a href="./login.html">Login</a>
+          </li>
+          <li>
+            <a href="./signup.html">Signup</a>
+          </li>
+          <li>
+            <a href="./home.html">Home</a>
+          </li>
+          <li>
+            <a href="./addTrans.html">Add</a>
+          </li>
+          <li>
+            <a href="#">History</a>
+          </li>
+          <li>
+            <a href="#">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="dashboard_main-container">
+    <div class="dashboard_stats-container">
+      <div class="dashboard_stats-total">
+        <h1 style="font-size: 35px">Your Balance</h1>
+        <h3 style="font-size: 25px; margin: 10px">+ &#8377; 20000</h3>
+      </div>
+      <div class="dashboard_stats-values">
+        <div class="dashboard_stats-income green">
+          <h1 style="font-size: 25px">Income</h1>
+          <h3 style="font-size: 20px; margin: 10px">+ &#8377; 30000</h3>
+        </div>
+        <div class="dashboard_stats-expense red">
+          <h1 style="font-size: 25px">Expense</h1>
+          <h3 style="font-size: 20px; margin: 10px">- &#8377; 10000</h3>
+        </div>
+      </div>
+    </div>
+  
+    <div class="dashboard_history-container">
+      <h1 style="font-size: 25px; text-align: center; margin: 50px; margin-top: 75px;">
+        Today's History
+      </h1>
+      
+      <div class="transaction_container red">
+        <div class="transaction_title" style="font-size: 23px">
+          Shoes
+        </div>
+        <div class="icon_container">
+          <div class="transaction_amount" style="font-size: 19px">
+            - &#8377; 1500
+          </div>
+          <!-- icons -->
+          <i class="fa-solid fa-pen-to-square"></i>
+          <i class="fa-solid fa-trash "></i>
+        </div>
+      </div>
+      
+      <div class="transaction_container green">
+        <div class="transaction_title" style="font-size: 23px">
+          Shoes
+        </div>
+        <div class="icon_container">
+          <div class="transaction_amount" style="font-size: 19px">
+            - &#8377; 1500
+          </div>
+          <!-- icons -->
+          <i class="fa-solid fa-pen-to-square"></i>
+          <i class="fi fi-rr-add"></i>
+          <i class="fa-solid fa-trash "></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
